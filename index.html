@@ -1,24 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portostar - Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header  -->
@@ -44,41 +47,47 @@
 
     <!-- banner  -->
     <section class="banner">
-      <div class="container bannerMain">
-        <div class="content">
-          <p>SAKIB AL HASAN</p>
-          <h1>Hello, my name’s Sakib. I’m MERN Stack Developer.</h1>
-          <div class="btn-div">
-            <button class="btn-primary" style="padding: 15px 20px"><i class="fa-regular fa-envelope"></i> CONTACT ME</button>
-            <button class="btn-secondary">
-              <i class="fa-solid fa-circle-arrow-down"></i> DOWNLOAD CV
-            </button>
+      <div class="container">
+        <div class="row">
+          <div class="content col-lg-5">
+            <p>SAKIB AL HASAN</p>
+            <h1>Hello, my name’s Sakib. I’m MERN Stack Developer.</h1>
+            <div class="btn-div">
+              <button class="btn-primary" style="padding: 15px 20px">
+                <i class="fa-regular fa-envelope"></i> CONTACT ME
+              </button>
+              <button class="btn-secondary">
+                <i class="fa-solid fa-circle-arrow-down"></i> DOWNLOAD CV
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div class="image">
-          <img src="./images/Avatar.png" alt="sakib image" />
+          <div class="image col-lg-7">
+            <img src="./images/Avatar.png" alt="sakib image" />
+          </div>
         </div>
       </div>
     </section>
 
     <section class="stats-section">
-      <div class="container stats-container">
-        <div class="stat-item">
-          <h2>100+</h2>
-          <p>PROJECTS</p>
-        </div>
-        <div class="stat-item">
-          <h2>24</h2>
-          <p>WINNING AWARD</p>
-        </div>
-        <div class="stat-item">
-          <h2>70+</h2>
-          <p>HAPPY CLIENTS</p>
-        </div>
-        <div class="stat-item">
-          <h2>10</h2>
-          <p>YEAR EXPERIENCE</p>
+      <div class="container">
+        <div class="row">
+          <div class="stat-item col-lg-3">
+            <h2>100+</h2>
+            <p>PROJECTS</p>
+          </div>
+          <div class="stat-item col-lg-3">
+            <h2>24</h2>
+            <p>WINNING AWARD</p>
+          </div>
+          <div class="stat-item col-lg-3">
+            <h2>70+</h2>
+            <p>HAPPY CLIENTS</p>
+          </div>
+          <div class="stat-item col-lg-3">
+            <h2>10</h2>
+            <p>YEAR EXPERIENCE</p>
+          </div>
         </div>
       </div>
     </section>
@@ -89,26 +98,27 @@
           <span class="section-tag">SERVICES</span>
           <h2>What I Do For My Customer.</h2>
           <p class="section-desc-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            blandit lectus. Praesent at hendrerit velit, at dictum nisl.
           </p>
         </div>
-        
-        <div class="services-grid">
-          <div class="service-card">
+
+        <div class="services-grid row">
+          <div class="service-card col-lg-4">
             <div class="card-icon-box">
               <i class="fa-solid fa-shapes"></i>
             </div>
             <h3>UI/UX Design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adi pising leo</p>
           </div>
-          <div class="service-card">
+          <div class="service-card col-lg-4">
             <div class="card-icon-box">
               <i class="fa-solid fa-box-open"></i>
             </div>
             <h3>Product Design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adi pising leo</p>
           </div>
-          <div class="service-card">
+          <div class="service-card col-lg-4">
             <div class="card-icon-box">
               <i class="fa-solid fa-eye"></i>
             </div>
@@ -121,86 +131,107 @@
 
     <section class="experience-info-section" id="about">
       <div class="container experience-info-container">
-        <div class="experience-info-content">
-          <p class="eyebrow">GRAPHIC DESIGNER</p>
-          <h2>Graphic Designer With 10 Years Of Experience.</h2>
-          <p class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-          </p>
-          <a href="#contact" class="btn-primary"><i class="fa-regular fa-envelope"></i> CONTACT ME</a>
-        </div>
-        <div class="experience-info-visual">
-          <div class="bg-diagonal-lines"></div>
-          <div class="floating-triangle tr-1"></div>
-          <div class="floating-triangle tr-2"></div>
+        <div class="row">
+          <div class="experience-info-content col-lg-6">
+            <p class="eyebrow">GRAPHIC DESIGNER</p>
+            <h2>Graphic Designer With 10 Years Of Experience.</h2>
+            <p class="body-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+            <a href="#contact" class="btn-primary"
+              ><i class="fa-regular fa-envelope"></i> CONTACT ME</a
+            >
+          </div>
         </div>
       </div>
     </section>
 
     <section class="partners-section">
       <div class="container partners-container">
-        <div class="partner-logo"><i class="fa-solid fa-layer-group"></i> logoipsum</div>
-        <div class="partner-logo"><i class="fa-solid fa-water"></i> logoipsum</div>
-        <div class="partner-logo"><i class="fa-solid fa-circle-half-stroke"></i> logoipsum</div>
-        <div class="partner-logo"><i class="fa-solid fa-wave-square"></i> logoipsum</div>
+        <div class="partner-logo">
+          <i class="fa-solid fa-layer-group"></i> logoipsum
+        </div>
+        <div class="partner-logo">
+          <i class="fa-solid fa-water"></i> logoipsum
+        </div>
+        <div class="partner-logo">
+          <i class="fa-solid fa-circle-half-stroke"></i> logoipsum
+        </div>
+        <div class="partner-logo">
+          <i class="fa-solid fa-wave-square"></i> logoipsum
+        </div>
       </div>
     </section>
 
     <section class="works-section" id="works">
-  <div class="container">
-    <div class="works-header-split">
-      <div class="section-heading">
-        <span class="section-tag">PORTFOLIO</span>
-        <h2>Selected Works.</h2>
-      </div>
-      <p class="works-header-desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-      </p>
-    </div>
+      <div class="container">
+        <div class="works-header-split">
+          <div class="section-heading">
+            <span class="section-tag">PORTFOLIO</span>
+            <h2>Selected Works.</h2>
+          </div>
+          <p class="works-header-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+          </p>
+        </div>
 
-    <div class="works-grid">
-      <div class="work-card">
-        <div class="work-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="Creativa Web Template Design" />
-        </div>
-        <div class="work-card-info">
-          <h3>Creativa - Elementor Template Kit</h3>
-          <p>UI/UX Design</p>
+        <div class="works-grid row">
+          <div class="work-card col-lg-6">
+            <div class="work-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80"
+                alt="Creativa Web Template Design"
+              />
+            </div>
+            <div class="work-card-info">
+              <h3>Creativa - Elementor Template Kit</h3>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+
+          <div class="work-card col-lg-6">
+            <div class="work-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+                alt="Nusapp Dashboard Mobile UI"
+              />
+            </div>
+            <div class="work-card-info">
+              <h3>Nusapp - Elementor Template Kit</h3>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+
+          <div class="work-card col-lg-6">
+            <div class="work-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                alt="Webina Agency Landing Page"
+              />
+            </div>
+            <div class="work-card-info">
+              <h3>Webina - Elementor Template Kit</h3>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+
+          <div class="work-card col-lg-6">
+            <div class="work-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80"
+                alt="Marketin Analytics SaaS Platform"
+              />
+            </div>
+            <div class="work-card-info">
+              <h3>Marketin - Elementor Template Kit</h3>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="work-card">
-        <div class="work-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Nusapp Dashboard Mobile UI" />
-        </div>
-        <div class="work-card-info">
-          <h3>Nusapp - Elementor Template Kit</h3>
-          <p>UI/UX Design</p>
-        </div>
-      </div>
-      
-      <div class="work-card">
-        <div class="work-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Webina Agency Landing Page" />
-        </div>
-        <div class="work-card-info">
-          <h3>Webina - Elementor Template Kit</h3>
-          <p>UI/UX Design</p>
-        </div>
-      </div>
-      
-      <div class="work-card">
-        <div class="work-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" alt="Marketin Analytics SaaS Platform" />
-        </div>
-        <div class="work-card-info">
-          <h3>Marketin - Elementor Template Kit</h3>
-          <p>UI/UX Design</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <section class="testimonials-section">
       <div class="container">
@@ -208,12 +239,13 @@
           <span class="section-tag">TESTIMONY</span>
           <h2>What Our Clients Say.</h2>
           <p class="section-desc-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            blandit lectus. Praesent at hendrerit velit, at dictum nisl.
           </p>
         </div>
 
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
+        <div class="testimonials-grid row">
+          <div class="testimonial-card col-lg-6">
             <div class="stars-row">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -222,7 +254,9 @@
               <i class="fa-solid fa-star"></i>
             </div>
             <p class="testimonial-text">
-              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+              Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+              lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
             </p>
             <div class="testimonial-footer">
               <div class="client-meta">
@@ -238,7 +272,7 @@
             </div>
           </div>
 
-          <div class="testimonial-card">
+          <div class="testimonial-card col-lg-6">
             <div class="stars-row">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -247,7 +281,9 @@
               <i class="fa-solid fa-star"></i>
             </div>
             <p class="testimonial-text">
-              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+              Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+              lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
             </p>
             <div class="testimonial-footer">
               <div class="client-meta">
@@ -271,37 +307,51 @@
         <div class="cta-box">
           <div class="cta-circle-top"></div>
           <div class="cta-circle-bottom"></div>
-          <h2>Interested Working<br>With me? Let's connect!</h2>
-          <a href="mailto:inquiry@portostar.com" class="btn-primary"><i class="fa-regular fa-envelope"></i> CONTACT ME</a>
+          <h2>Interested Working<br />With me? Let's connect!</h2>
+          <a href="mailto:inquiry@portostar.com" class="btn-primary"
+            ><i class="fa-regular fa-envelope"></i> CONTACT ME</a
+          >
         </div>
       </div>
     </section>
 
-    <footer>
-      <div class="container footer-container">
+    <footer class="container">
+      <div class="container">
         <div class="footer-top-row">
           <div class="footer-brand-side">
-            <div class="footer-logo"><i class="fa-solid fa-compass"></i> PORTOSTAR</div>
+            <div class="footer-logo">
+              <i class="fa-solid fa-compass"></i> PORTOSTAR
+            </div>
             <p class="footer-brief">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit.
             </p>
           </div>
           <div class="footer-contact-side">
             <div class="contact-info-line">
-              <i class="fa-regular fa-envelope"></i> <a href="mailto:inquiry@portostar.com">inquiry@portostar.com</a>
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:inquiry@portostar.com">inquiry@portostar.com</a>
             </div>
             <div class="contact-info-line">
               <i class="fa-solid fa-phone"></i> <span>(001) 1231 3435</span>
             </div>
             <div class="footer-socials">
-              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" aria-label="Dribbble"><i class="fa-solid fa-basketball"></i></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="Dribbble"
+                ><i class="fa-solid fa-basketball"></i
+              ></a>
             </div>
           </div>
         </div>
-        
+
         <div class="footer-bottom-row">
           <div class="footer-nav-links">
             <a href="#">HOME</a>
@@ -309,11 +359,11 @@
             <a href="#services">SERVICES</a>
             <a href="#works">WORKS</a>
           </div>
-          <div class="footer-copyright">
-            © All Right Reserved
-          </div>
+          <div class="footer-copyright">© All Right Reserved</div>
         </div>
       </div>
     </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
